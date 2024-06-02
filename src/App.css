@@ -1,4 +1,28 @@
-.App {
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.dice {
+  width: 150px;
+  height: 150px;
+  margin: 15px;
+}
+.dice__button{
+  border: 4px solid rosybrown;
+  border-radius: 20px;
+  width: 150px;
+  height: 50px;
+  font-size: large;
+  font-style: italic;
+}
+
+
+/*.App {
   text-align: center;
 }
 
@@ -35,4 +59,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+}*/
